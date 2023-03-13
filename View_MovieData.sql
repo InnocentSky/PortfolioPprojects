@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [MovieTitle]
+      ,[Genre]
+      ,[Director1]
+      ,[Cast1]
+      ,[Cast2]
+      ,[Cast3]
+      ,[Cast4]
+      ,[Cast5]
+      ,[Budget ]
+      ,[Revenue]
+      ,[MovieReleaseDate]
+  FROM [SQLTutorial].[dbo].[View_MovieData]
